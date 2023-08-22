@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="454dp"
+        android:background="#fafaff"
+        android:padding="10sp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/list_item_Email"
+            android:layout_marginBottom="-70dp"
+            android:alpha="0.5"
+            android:background="@color/Gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.533" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/list_item_Phone"
+            android:layout_marginBottom="34dp"
+            android:alpha="0.5"
+            android:background="@color/Gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.533" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/list_item_FullName"
+            android:layout_marginBottom="38dp"
+            android:alpha="0.5"
+            android:background="@color/Gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.533" />
+
+        <TextView
+            android:id="@+id/list_item_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/appCompatImageView2"
+            android:layout_marginTop="102dp"
+            android:layout_marginBottom="37dp"
+            android:fontFamily="@font/manrope"
+            android:shadowColor="@color/OxfordBlue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/list_item_FullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/appCompatImageView3"
+            android:layout_marginBottom="37dp"
+            android:fontFamily="@font/manrope_bold"
+            android:shadowColor="@color/OxfordBlue"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/list_item_Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="31dp"
+            android:fontFamily="@font/manrope"
+            android:shadowColor="@color/OxfordBlue"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/list_item_Phone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/appCompatImageView4"
+            android:layout_marginBottom="37dp"
+            android:fontFamily="@font/manrope"
+            android:shadowColor="@color/Flame"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/list_item_FullName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/list_item_Phone2"
+            android:layout_marginBottom="37dp"
+            android:fontFamily="@font/manrope_bold"
+            android:shadowColor="@color/Flame"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

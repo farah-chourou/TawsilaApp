@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "726167392768",
+    "project_id": "tryfortawsila1",
+    "storage_bucket": "tryfortawsila1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726167392768:android:a130ef340e0c12a7843ee5",
+        "android_client_info": {
+          "package_name": "com.example.tryfortawsila1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726167392768-hn7olujue67dcqusqpcv3d900vm50740.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm6mjoPrGTLOUpyEJ3f_uv6SEWLBt_OHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726167392768-hn7olujue67dcqusqpcv3d900vm50740.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
